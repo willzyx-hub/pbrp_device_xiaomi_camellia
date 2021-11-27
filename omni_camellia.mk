@@ -27,6 +27,7 @@ $(call inherit-product, device/xiaomi/camellia/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := camellia
