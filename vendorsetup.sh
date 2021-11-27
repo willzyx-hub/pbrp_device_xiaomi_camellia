@@ -1,0 +1,2 @@
+add_lunch_combo omni_camellia-eng
+add_lunch_combo omni_camellia-userdebug
