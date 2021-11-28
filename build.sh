@@ -24,6 +24,7 @@ echo " ===+++ Building Recovery +++==="
 . build/envsetup.sh
 export ALLOW_MISSING_DEPENDENCIES=true
 lunch omni_${DEVICE}-eng && mka bootimage
+ls
 
 cd $OUT/recovery/root
 ./ldcheck -p system/lib64:vendor/lib64 -d system/bin/qseecomd
