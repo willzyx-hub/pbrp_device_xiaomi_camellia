@@ -15,9 +15,9 @@ mkdir ~/twrp && cd ~/twrp
 DEVICE=${DT_PATH##*\/}
 
 echo " ===+++ Syncing Recovery Sources +++==="
-repo init --depth=1 -u $MANIFEST
+repo init -u $MANIFEST
 repo sync
-git clone --depth=1 $DT_LINK $DT_PATH
+git clone $DT_LINK $DT_PATH
 
 echo " ===+++ Building Recovery +++==="
 
