@@ -11,7 +11,7 @@ echo " ===+++ Setting up Build Environment +++==="
 apt install openssh-server -y
 apt update --fix-missing
 apt install openssh-server -y
-mkdir ~/twrp && cd ~/twrp
+mkdir ~/pbrp && cd ~/pbrp
 DEVICE=${DT_PATH##*\/}
 
 echo " ===+++ Syncing Recovery Sources +++==="
