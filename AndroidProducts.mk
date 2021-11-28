@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_camellia.mk
+     $(LOCAL_DIR)/omni_camellia.mk
